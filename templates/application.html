@@ -1,0 +1,100 @@
+<!doctype html>
+<html>
+  <head>
+    {% include 'bootstrap.html' %}
+  </head>
+  <body>
+    {% include 'nav.html' %}
+    <div class="container">
+      
+      <!-- <div class="col-10"> -->
+        <form method="post"action="">
+          <div class="row g-5">
+            <div class="col">
+              <div class="mb-3 row">
+                <label for="fullname" class="col-sm-3 col-form-label">Full Name</label>
+                <div class="col-sm-7">
+                  <input type="text" class="form-control" id="fullname" name="fullname">
+                </div>
+                <!--class="form-control"  <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div> -->
+              </div>
+              <div class="mb-3 row">
+                <label for="role" class="col-sm-3 col-form-label">Role</label>
+                <div class="col-sm-7">
+                  <input type="text" class="form-control" id="role" name="role">
+                </div>
+              </div>
+              <div class="mb-3 row">
+                <label for="address" class="col-sm-3 col-form-label">Address</label>
+                <div class="col-sm-7">
+                  <textarea id="address"class="form-control" name="address"></textarea>
+                </div>
+              </div>
+              <div class="mb-3 row">
+                <label for="dob" class="col-sm-3 col-form-label">Date of Birth</label>
+                <div class="col-sm-7">
+                  <input type="date" class="form-control" id="dob" name="dob">
+                </div>
+              </div>
+              <div class="mb-3 row">
+                <label for="wad" class="col-sm-3 col-form-label">Wedding Anniversary Date</label>
+                <div class="col-sm-7">
+                  <input type="date" class="form-control" id="wad" name="wad">
+                </div>
+              </div>
+              <div class="mb-3 row">
+                <label for="bd" class="col-sm-3 col-form-label">Baptism Date</label>
+                <div class="col-sm-7">
+                  <input type="date" class="form-control" id="bd" name="bd">
+                </div>
+              </div>
+              <div class="mb-3 row">
+                <label for="dod" class="col-sm-3 col-form-label">Date of Death</label>
+                <div class="col-sm-7">
+                  <input type="date" class="form-control" id="dod" name="dod">
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="mb-3 row">
+                <label for="bloodgroup" class="col-sm-3 col-form-label">Blood Group</label>
+                <div class="col-sm-7">
+                  <input type="text" class="form-control" id="bloodgroup" name="bloodgroup">
+                </div>
+              </div>
+              <div class="mb-3 row">
+                <label for="contactno" class="col-sm-3 col-form-label">Contact No.</label>
+                <div class="col-sm-7">
+                  <input type="text" class="form-control" id="contactno" name="contactno">
+                </div>
+              </div>
+              <div class="mb-3 row">
+                <label for="emailid" class="col-sm-3 col-form-label">Email Id</label>
+                <div class="col-sm-7">
+                  <input type="text" class="form-control" id="emailid" name="emailid">
+                </div>
+              </div>
+              <div class="mb-3 row">
+                <label for="occupation" class="col-sm-3 col-form-label">Occupation</label>
+                <div class="col-sm-7">
+                  <input type="text" class="form-control" id="occupation" name="occupation">
+                </div>
+              </div>
+              <div class="mb-3 row">
+                <label for="qualification" class="col-sm-3 col-form-label">Qualification</label>
+                <div class="col-sm-7">
+                  <input type="text" class="form-control" id="qualification" name="qualification">
+                </div>
+              </div>
+          </div>
+          <!-- <div class="mb-2 form-check">
+            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+            <label class="form-check-label" for="exampleCheck1">Check me out</label>
+          </div> -->
+          </div>
+          <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+      <!-- </div> -->
+    </div>
+  </body>
+</html>
